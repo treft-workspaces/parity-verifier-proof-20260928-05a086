@@ -1,3 +1,4 @@
 export function totalCents(subtotalCents, shippingCents) {
-  return subtotalCents + shippingCents;
+  const total = subtotalCents + shippingCents;
+  return total;
 }
