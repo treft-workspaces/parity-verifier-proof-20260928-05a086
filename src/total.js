@@ -1,4 +1,4 @@
 export function totalCents(subtotalCents, shippingCents) {
-  const total = subtotalCents + shippingCents;
-  return total;
+  const amount = subtotalCents + shippingCents;
+  return amount;
 }
